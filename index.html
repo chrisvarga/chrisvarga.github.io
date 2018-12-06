@@ -1,1 +1,13 @@
-hello, world!
+---
+layout: default
+title: {{ site.name }}
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <h1><a href = "{{ site.baseurl }}{{post.url}}">{{ post.title }}</a></h1>
+      <span>by <a href = "{{ site.baseurl }}/about">chris</a>, {{ post.date | date: '%B %d, %Y' }}</span>
+    {% endfor %}
+  </ul>
+</div>

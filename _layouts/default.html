@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+  
+  {% include head.html %}
+
+  <body>
+    {% include page-header.html %}
+
+    <section class="main-content">
+      <h1>{{ page.food }}</h1>
+      <h2>{{ page.title | default: ""}}</h2>
+      {% if page.is_post %}
+          <p class="meta">by <a href = "{{ site.baseurl }}/about">chris</a>, {{ page.date | date: '%B %d, %Y' }}</p>
+      {% endif %}
+      {{ content }}
+
+      {% include page-footer.html %}
+
+    </section>
+
+  </body>
+</html>
