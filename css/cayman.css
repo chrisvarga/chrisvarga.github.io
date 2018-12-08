@@ -1,6 +1,8 @@
 ---
 ---
 
+.date { font-style: italic; color: #7c7c7c; }
+
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
@@ -129,7 +131,7 @@
 
 * { box-sizing: border-box; }
 
-body { padding: 0; margin: 0; font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #606c71; }
+body { padding: 0; margin: 0; font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #292929; }
 
 a { color: #383838; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -176,7 +178,7 @@ a:hover { text-decoration: underline; }
 .main-content pre code, .main-content pre tt { display: inline; max-width: initial; padding: 0; margin: 0; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0; }
 .main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after { content: normal; }
 .main-content ul, .main-content ol { margin-top: 0; }
-.main-content blockquote { padding: 0 1rem; margin-left: 0; color: #819198; border-left: 0.3rem solid #dce6f0; }
+.main-content blockquote { padding: 0 1rem; margin-left: 0; color: #535558; border-left: 0.3rem solid #535558; }
 .main-content blockquote > :first-child { margin-top: 0; }
 .main-content blockquote > :last-child { margin-bottom: 0; }
 .main-content table { display: block; width: 100%; overflow: auto; word-break: normal; word-break: keep-all; -webkit-overflow-scrolling: touch; }
@@ -193,5 +195,7 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .site-footer { font-size: 0.9rem; } }
 
 .site-footer-owner { display: block; font-weight: bold; }
+
+.site-footer-owner a { color: #215fa4; }
 
 .site-footer-credits { color: #819198; }

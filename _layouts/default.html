@@ -7,10 +7,9 @@
     {% include page-header.html %}
 
     <section class="main-content">
-      <h1>{{ page.food }}</h1>
-      <h2>{{ page.title | default: ""}}</h2>
+      <h1>{{ page.title | default: ""}}</h1>
       {% if page.is_post %}
-          <p class="meta">by <a href = "{{ site.baseurl }}/about">chris</a>, {{ page.date | date: '%B %d, %Y' }}</p>
+          <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
       {% endif %}
       {{ content }}
 
