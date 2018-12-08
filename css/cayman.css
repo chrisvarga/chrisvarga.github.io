@@ -145,6 +145,7 @@ a:hover { text-decoration: underline; }
   .btn + .btn { margin-top: 1rem; margin-left: 0; } }
 
 .page-header { color: #fff; text-align: center; background-color: #283256; background-image: url(../assets/{% if page.bg %}{{ page.bg }}{% else %}{{ site.bg }}{% endif %}); }
+.page-header a { color: #fff; }
 /*.page-header { color: #fff; text-align: center; background-color: #283256; background-image: linear-gradient(120deg, #283256, #815067); }*/
 /*.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); }*/
 @media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
